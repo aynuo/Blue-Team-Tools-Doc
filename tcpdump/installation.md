@@ -1,18 +1,18 @@
-# tcpdump installation
-## tcpdump web site:
+# ✩ tcpdump installation
+## ✓ tcpdump web site:
 [tcpdump](https://www.tcpdump.org/)
-## Linux Debian/Ubuntu:
+## ✓ Linux Debian/Ubuntu:
 
     sudo apt-get install tcpdump
 or
 
     sudo apt install tcpdump
 
-## MacOS
+## ✓ MacOS
 
     brew install tcpdump
 
-## windows:
+## ✓ windows:
 Tcpdump tool is not available for Windows, but there is a port called WinDump that has similar functionality to tcpdump:
 	[WinDump](https://www.winpcap.org/windump/)
 
