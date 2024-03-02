@@ -2,7 +2,7 @@
 
 1. **IP Address Filter:**
    - Syntax: `ip.addr == <IP Address>`
-   - Example: `ip.addr == 192.168.1.1`
+   - Example: `ip.addr == 192.168.1.100`
    - Description: Filter packets with a specific source or destination IP address.
 
 2. **Protocol Filter:**
@@ -20,22 +20,12 @@
    - Example: `http.request.method == "GET"`
    - Description: Specify display filters using Wireshark's display filter syntax.
 
-5. **Capture Filter:**
-   - Syntax: `capture filter string`
-   - Example: `host 192.168.1.100`
-   - Description: Specify criteria for capturing packets during live capture.
-
-6. **Protocol Hierarchy Filter:**
-   - Syntax: `protocol == <Protocol Name>`
-   - Example: `protocol == http`
-   - Description: Filter packets based on the highest-level protocol in a protocol hierarchy.
-
-7. **MAC Address Filter:**
+5. **MAC Address Filter:**
    - Syntax: `eth.addr == <MAC Address>`
    - Example: `eth.addr == 00:11:22:33:44:55`
    - Description: Filter packets based on the source or destination MAC address.
 
-8. **DNS Filter:**
+6. **DNS Filter:**
    - Syntax: `dns`
    - Example: `dns.qry.name == "example.com"`
    - Description: Filter DNS traffic and queries.
