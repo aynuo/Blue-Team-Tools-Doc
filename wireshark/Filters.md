@@ -2,7 +2,8 @@
 
 1. **IP Address Filter:**
    - Syntax: `ip.addr == <IP Address>`
-   - Example: `ip.addr == 192.168.1.100`
+   - Example: `ip.addr == 192.168.1.1`
+   - ![](file:///G:/github/Blue-Team-Tools-Doc/wireshark/Assets/ip.addr.png)
    - Description: Filter packets with a specific source or destination IP address.
 
 2. **Protocol Filter:**
